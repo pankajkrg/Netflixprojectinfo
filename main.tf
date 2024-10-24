@@ -5,7 +5,7 @@ resource "aws_instance" "one"{
 ami= "ami-0374badf0de443688"
 count=4
 instance_type= "t2.medium"
-key_name="ohio"
+key_name="Ohio"
 vpc_security_group_ids=["sg-037af579f14bec296"]
 tags={
 Name=var.instance_name[count.index]

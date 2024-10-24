@@ -12,5 +12,5 @@ Name=var.instance_name[count.index]
 }
 }
 variable "instance_name"{
-default=["jenkins,nexus,tomcat1","tomcat2"]
+default=["jenkins","nexus","tomcat1","tomcat2"]
 }
